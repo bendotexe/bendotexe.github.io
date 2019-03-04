@@ -1,9 +1,31 @@
-h1 {
+h1, h2 {
   color:red;
-  align-self: : center;
+  text-align: center;
+}
+
+tr {
+  text-align: center;
 }
 
 .navtable {
-  color: blue;
-  align-self: center;
+  color: purple;
+  background-color: red;
+}
+
+.navbox {
+  padding: 20px 50px;
+  background-color: red;
+  width: 33%;
+}
+
+#train {
+border-radius: 50%;
+border-style: outset;
+border-color: red;
+}
+
+@media (min-width: 070px) {
+  .phoneonly {
+    display:none
+  }
 }
